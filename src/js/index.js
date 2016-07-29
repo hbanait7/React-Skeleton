@@ -1,9 +1,9 @@
 'use strict';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Router from './routes.js';
+import AppRouter from './routes.js';
 
 ReactDOM.render(
-  <Router history={ hashHistory } />,
+  <AppRouter />,
   document.querySelector('#app')
 );
